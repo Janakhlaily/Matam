@@ -1,0 +1,44 @@
+ <!DOCTYPE html>
+ <html>
+ <head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Matala Dom</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles/style.css'>
+    <script src='js.js'></script>
+ </head>
+ <body>
+
+<!--סעיף 1-->
+
+    <p id="text">This is a sample paragraph.</p>
+    <input type="text" id="classInput" placeholder="Enter class name">
+    <button onclick="addClass()">Add Class</button>
+
+
+<!-- סעיף 2-->
+<section>
+
+            <p id="p1" class="visible">This is the first paragraph.</p>
+
+            <p id="p2" class="visible">This is the second paragraph.</p>
+
+            <p id="p3" class="visible">This is the third paragraph.</p>
+
+            <button onclick="toggleVisibility('p1')">Toggle first Paragraph </button>
+
+            <button onclick="toggleVisibility('p2')">Toggle second Paragraph </button>
+
+            <button onclick="toggleVisibility('p3')">Toggle third Paragraph </button>
+
+        </section>
+
+
+<!--סעיף ב-->
+<section>
+        <button id="myButton" onclick="changeButtonText()">Click me!</button>
+    </section>
+    
+ </body>
+ </html>
